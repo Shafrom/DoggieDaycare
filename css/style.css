@@ -589,6 +589,8 @@ ul li:hover .submenu6 {
 }
 .makeAppointment_button {
   margin-bottom: 30px;
+  cursor: pointer;
+  outline: none;
 }
 .makeAppointment__topText {
   max-width: 324px;
@@ -694,13 +696,20 @@ ul li:hover .submenu6 {
 
 /* -------------------------------- */
 .ourCustomers {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+  /* opacity: 0.6; */
+  border-radius: 40px;
+  background-color: #fff;
+  box-shadow: 0px 16px 24px rgba(38, 38, 38, 0.2), 0px 8px 16px rgba(38, 38, 38, 0.24);
 }
 .ourCustomers__item-left {
   max-width: 324px;
   padding-top: 40px;
+  padding-left: 20px;
 }
 .ourCustomers__topCont {
   display: flex;
@@ -851,6 +860,7 @@ ul li:hover .submenu6 {
   background: #5D62B5;
   border-radius: 20px;
   padding: 43px 70px;
+  box-shadow: 0px 16px 24px rgba(38, 38, 38, 0.2), 0px 8px 16px rgba(38, 38, 38, 0.24);
 }
 .ourImpact__description {
   font-family: Roboto;
@@ -863,8 +873,12 @@ ul li:hover .submenu6 {
 .ourImpact__link {
   width: 210px;
   flex-shrink: 0;
+  cursor: pointer;
+  box-shadow: 0px 16px 24px rgba(38, 38, 38, 0.2), 0px 8px 16px rgba(38, 38, 38, 0.24);
 }
-
+.ourImpact__link a {
+  color: #FFFFFF
+}
 
 
 
@@ -915,3 +929,140 @@ ul::before {
 .active {
   color: red;
 } */
+
+
+/* =================================================================== */
+
+.footer {
+  padding-top: 160px;
+  padding-bottom: 98px;
+  background: #F5F5F5;
+}
+.footer__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* max-width: 230px; */
+}
+.logo__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 23px;
+}
+.footer__logoPic {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.footer__logoText {
+  height: 30px;
+}
+.footer__aboutCompany {
+  max-width: 240px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.15px;
+  color: #4B4B4B;
+  margin-bottom: 33px;
+}
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+.footer__socialPic {
+  width: 26px;
+  height: 26px;
+}
+.footer__item {
+  max-width: 256px;
+}
+.footer__item-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.15px;
+  color: #4B4B4B;
+  margin-bottom: 28px;
+}
+.footer__linksCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__linksItem {
+  margin-right: 130px;
+}
+.footer__link {
+  display: inline-block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.15px;
+  color: #4B4B4B;
+  list-style-type: none;
+  margin-bottom: 11px;
+  border-bottom: 1px solid transparent;
+  transition: .5s;
+}
+.footer__link:hover {
+  border-bottom: 1px solid #4B4B4B;
+}
+.footer__link a {
+  color: #4B4B4B;
+}
+.footer__item-contacts {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+.contacts__pic {
+  margin-right: 18px;
+  padding-top: 3px;
+}
+.contacts__text {
+  max-width: 198px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.15px;
+  color: #4B4B4B;
+}
+
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #5D62B5;
+  padding: 23px 180px;
+  box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.24);
+}
+.copyright__item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 0.15px;
+  color: #FFFFFF;
+}
+.copyright__item a {
+  color: rgb(219, 243, 154)
+}
+.shafrom_pic {
+  width: 20px;
+  height: 20px;
+}
+.shafrom_link {
+  display: flex;
+  align-items: center;
+}
